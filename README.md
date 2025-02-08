@@ -29,7 +29,7 @@ This website ensures that for just **$100, $200, or $500**, you’ll receive:
 ---
 
 ## **🎥 Live Demo**  
-🔗 [Visit the Scam](https://github.io/no1nereal/ultimate-scam-experience) (If you dare)  
+🔗 https://github.io/no1nereal/ultimate-scam-experience (If you dare)  
 
 ---
 
