@@ -1,0 +1,380 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+li{
+    list-style-type: none; 
+ }
+
+ a{
+    color:rgb(0, 60, 255);
+    text-decoration: none;
+ }
+
+ a:hover{
+    color:rgb(255, 0, 0);
+ }
+ 
+
+
+
+
+ body{
+    background-color: rgb(0, 4, 255);
+    font-family: "Oswald";
+    
+}
+
+h3{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+
+#header{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 2rem;
+    margin-left: -2px;
+    margin-top: -2px;
+
+    
+}
+
+#header img{
+    width: 10rem;
+}
+
+#header h1{
+    color: rgb(255, 0, 0);
+    font-size: 5.5rem;
+    padding-left: 4rem;
+    text-shadow: 2px 1.5px 3px rgba(255, 0, 0, 0.466);
+
+}
+
+#header ul{
+    display: flex;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+#header ul li{
+    font-size: 2rem;
+    margin-left: 10px;
+    text-shadow: 3px 3px 5px rgba(0, 4, 255, 0.685);
+    font-weight: bold;
+}
+
+
+
+.display-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+    grid-template-rows: 1fr 5%;
+    height: 100vh;
+    
+}
+
+
+
+main, footer{
+    grid-column: 2/3;
+    background-color: rgb(241, 68, 68);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+main{
+    padding-top: 15%;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.521);
+
+    
+}
+
+#heading, h2{
+    margin-bottom: 5rem;
+    color: red;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.945);
+    font-size: 5rem;
+    background-color: rgb(0, 4, 255);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 3px 3px 50px rgb(2, 0, 0);
+}
+
+.options{
+    font-size: 6rem;
+    color: rgb(17, 20, 204);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.719);
+    margin-bottom: 2rem;
+
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.email input{
+    padding: 15px;
+    width: 40vw;
+    margin-bottom: 2.5rem;
+    
+}
+
+
+
+.wrapper-line{
+    display:flex;
+    margin-bottom: 2.5rem;
+}
+
+#features{
+    padding: 5rem;
+    margin-left: 5rem;
+    
+}
+
+
+#features img{
+    margin-right: 5rem;
+    width: 10rem;
+    height: auto;
+    
+}
+
+
+
+#how-it-works{
+    line-height: 4rem;
+    padding: 5rem;
+    margin-bottom: 2.5rem;
+
+}
+
+#video h3{
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(48, 23, 189);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.637);
+    font-size: 5rem;
+    border-radius: 10px;
+    padding: 1rem;
+
+}
+
+iframe{
+    margin-bottom: 2.5rem;
+}
+
+#pricing{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 4rem;
+}
+
+.wrapper-price{
+    margin-left: 5rem;
+    border: solid 1px black;
+    background: #000dca;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.432);
+    transition: 0.3s;
+}
+
+.wrapper-price:hover {
+    box-shadow: 0px 8px 20px rgba(255, 0, 0, 0.322);
+}
+
+.wrapper-price h3, .wrapper-price h4{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.button-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    background: linear-gradient(145deg, #ff0000, #b30000);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(145deg, #ff4444, #ff0000);
+    transform: scale(1.05);
+}
+
+
+
+.column1{
+    grid-column: 1;
+}
+
+.column2{
+    grid-column: 2;
+}
+
+.column3{
+    grid-column: 3;
+}
+
+
+#faq{
+    padding: 2rem;
+    color: rgb(255, 0, 0);
+    background-color: #000dca;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 3px 3px 50px rgb(2, 0, 0);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.719);
+    margin-bottom: 3rem;
+
+}
+
+
+.wrapper-question{
+    margin-bottom: 3rem;
+    width: 77vw;
+}
+
+.wrapper-question h5{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper-question p{
+    font-size: 2rem;
+    padding-left: 5rem;
+}
+
+
+footer{
+    grid-column: 1/4;
+    display:grid;
+    justify-content: right;
+    background-color: rgb(175, 172, 172);
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    gap: 15px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    #header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        
+    }
+
+    #header h1 {
+        font-size: 3.5rem;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .display-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        font-size: 1.8rem;
+        padding-top: 12%;
+    }
+
+    #features {
+        padding: 3rem;
+        margin-left: 0;
+    }
+
+    .wrapper-line {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #pricing {
+        grid-template-columns: 1fr;
+    }
+
+    .wrapper-price {
+        margin-left: 0;
+        width: 90%;
+        margin: auto;
+    }
+
+    #faq {
+        width: 95%;
+        margin: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
